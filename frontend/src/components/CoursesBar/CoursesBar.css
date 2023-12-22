@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Belanosima&family=Kalam:wght@300&family=Kanit:wght@300&family=Lato&family=Poppins:wght@300;400&family=Roboto:wght@100;400;700&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap");
+.course-bar {
+  display: flex;
+  padding: 0.5% 1% 0.5% 2.5%;
+  background: #333333e0;
+}
+.courses {
+  font-size: 13px;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.courses span {
+  margin: 0 4% 0 0;
+  cursor: pointer;
+  color: white;
+  transition: padding-bottom 0.3s;
+}
+
+.courses span:hover {
+  color: rgba(255, 115, 0, 0.87);
+  border-bottom: 2px solid #ff7900;
+  transition: border-color 0.3s;
+  padding-bottom: 4px;
+}
+.course-finder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40%;
+}
+.course-finder span {
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.course-finder span:hover {
+  color: #ff7900;
+  /* transition: text-decoration 0.3s; */
+  border-bottom: 2px solid #ff7900;
+  transition: border-color 0.3s;
+  padding-bottom: 4px;
+}

@@ -1,0 +1,23 @@
+.slide-active {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: "transform ease-out 0.1s";
+  overflow: hidden;
+  transform: scale(1.1);
+}
+.slide {
+  display: none;
+  transition: "transform ease-out 0.1s";
+  overflow: hidden;
+}
+.slide-img {
+  transition: "transform ease-out 0.1s";
+  overflow: hidden;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

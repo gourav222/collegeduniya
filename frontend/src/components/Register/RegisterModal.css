@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Belanosima&family=Kalam:wght@300&family=Kanit:wght@300&family=Lato&family=Poppins:wght@300;400&family=Roboto:wght@100;400;700&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap");
+.register {
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  width: 70%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  background: #FFF !important;
+  z-index: 10 !important;
+  padding: 2%;
+  border-radius: 5px;
+}
+.register-1 {
+  width: 40%;
+  height: 100%;
+}
+.register-2 {
+  width: 70%;
+  padding: 2%;
+}
+.register-heading {
+  font-size: 18px;
+}
+.apply-now {
+  display: flex;
+}
+.register-img img {
+  width: 70%;
+  height: 70%;
+  margin: 10% 0 0 10%;
+}
+.register-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  width: 100px;
+  height: 100px;
+  border-radius: 70px;
+}
+.register-text h2 {
+  color: #ff7900;
+  font-weight: 500;
+}
+.register-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 2%;
+}
+.register-text p {
+  font-size: 18px;
+}
+.close img {
+  width: 80%;
+}
+.close {
+  /* margin: 0 0 0 20%; */
+  position: relative;
+  left: 35%;
+  top: -20px;
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  margin: 15px 0 15px 0;
+}
+.terms-condition p {
+  font-size: 13px;
+  font-weight: 500;
+}
+.terms-condition p span {
+  color: rgb(79, 184, 221);
+}
+.submit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4% 0 0 0;
+  color: #ff7900;
+  font-weight: 500;
+  font-size: large;
+}
+.submit button {
+  background: none;
+  border: none;
+  width: 18%;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  height: 2.6vmax;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff7900;
+}
+.people-review h3{
+    font-size: 15px;
+    font-weight: 500;
+}

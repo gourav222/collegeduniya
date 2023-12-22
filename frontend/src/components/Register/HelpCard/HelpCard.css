@@ -1,0 +1,21 @@
+.help-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 40%;
+    margin: 2%;
+    height: 8vmax;
+}
+.help-card div{
+    display: flex;
+    justify-content: center;
+}
+.help-card-img{
+    width: 50%;
+}
+.help-card-title{
+    font-size: 0.7vmax;
+}

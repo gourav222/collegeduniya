@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![alt text](https://github.com/gourav222/collegeduniya/blob/master/homePage.png?raw=true)
+
+![alt text](https://github.com/gourav222/collegeduniya/blob/master/registrationPage.png?raw=true)
+
 ## Available Scripts
 
 In the project directory, you can run:
